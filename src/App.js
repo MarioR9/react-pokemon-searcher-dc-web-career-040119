@@ -1,11 +1,15 @@
 import React from 'react'
-import PokemonIndex from './components/PokemonIndex'
+import PokemonIndex, {fetchPokemon} from './components/PokemonIndex'
 import './App.css'
 
+
+
 const App = () => (
+  
   <div className="App">
-    <PokemonIndex />
+    <PokemonIndex />  
   </div>
 )
+
 
 export default App
